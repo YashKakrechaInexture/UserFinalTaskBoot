@@ -100,7 +100,7 @@ public class FrontController {
 		
 		if(u != null) {
 
-			session = request.getSession();
+			session = request.getSession(false);
 			session.setAttribute("user", u);
 			
 			LOG.debug("Session created and UserBean set to attribute.");
@@ -205,7 +205,7 @@ public class FrontController {
 			
 			LOG.debug("Setting user bean to request attribute.");
 			
-			ModelAndView model = new ModelAndView("register");
+			ModelAndView model = new ModelAndView("registerView");
 			model.addObject("user", u);
 	        
 	        LOG.debug("Redirecting to edit jsp page.");

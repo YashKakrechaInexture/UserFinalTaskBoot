@@ -37,7 +37,7 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="password1">Password</label>
+								<label for="password">Password</label>
 								<div class="input-group">
 									<span class="input-group-addon" id="basic-addon2">
 										<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
